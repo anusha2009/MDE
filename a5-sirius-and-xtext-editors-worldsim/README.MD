@@ -1,4 +1,4 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/dS471m_-)
+
 # A5-sirius-and-xtext
 The assignment focuses on the development of textual and graphical editors related to the identified domain. It requires the realization of several tasks by using the following frameworks: xText - Sirius.
 The assignment aims to understand the acquired competencies about the considered technologies. Because of the complexity of such technologies, we are asking for straightforward editor implementations that partially cover the concepts defined at the metamodel level.
