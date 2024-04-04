@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:properties="http://www.eclipse.org/sirius/properties/1.0.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="project" version="12.0.0.2017041100">
+  <ownedViewpoints name="MyViewpoint">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="WorldSim" domainClass="Root">
+      <metamodel href="../../WorldSimEMF2/model/WorldSim.ecore#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="CharacterNode" domainClass="Character">
+          <style xsi:type="style:SquareDescription" labelSize="12" labelExpression="feature:first_name" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="animalNode" domainClass="AnimalSpeciesType">
+          <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="plantNode" domainClass="PlantSpeciesType">
+          <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="locationTypeNode" domainClass="LocationType">
+          <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="beliefSystemNode" domainClass="BeliefSystemType">
+          <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="relationshipTypeNode" domainClass="RelationshipType">
+          <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="beliefNode" domainClass="BeliefSystem">
+          <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="eventNode" domainClass="Event">
+          <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="LocationNode" domainClass="Location">
+          <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="relationshipNode" domainClass="Relationship">
+          <style xsi:type="style:SquareDescription" labelSize="12" labelExpression="feature:character" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="politicalEntityNode" domainClass="PoliticalEntity">
+          <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="CharacterPresenceEdge" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='CharacterNode']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='eventNode']" targetFinderExpression="feature:event" sourceFinderExpression="feature:character" domainClass="Presence" useDomainElement="true">
+          <style sizeComputationExpression="2" routingStyle="manhattan">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="EventPresenceEdge" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='eventNode']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='LocationNode']" targetFinderExpression="feature:location" sourceFinderExpression="feature:event" domainClass="Presence" useDomainElement="true">
+          <style sizeComputationExpression="2" routingStyle="manhattan">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="animalSpeciesEdge" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='CharacterNode']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='animalNode']" targetFinderExpression="feature:animalspeciestype">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="BeliefEdge" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='beliefNode']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='beliefSystemNode']" targetFinderExpression="feature:beliefsystemtype" sourceFinderExpression="feature:is_believed_by" domainClass="BeliefSystem" useDomainElement="true">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="politicalEntityEdge" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='CharacterNode']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='beliefNode']" targetFinderExpression="feature:beliefsystem" sourceFinderExpression="feature:members" domainClass="PoliticalEntity" useDomainElement="true">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="ChildrenEdge" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='CharacterNode']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='CharacterNode']" targetFinderExpression="feature:children">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="relationEdge" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='WorldConceptsContainer']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='animalNode']" targetFinderExpression="feature:animalspeciestype" sourceFinderExpression="feature:animalspeciestype" domainClass="Character" useDomainElement="true">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="eventBelief" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='beliefNode']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='eventNode']" targetFinderExpression="feature:related_events">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="beliefSystemRelation" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='beliefSystemNode']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='beliefNode']" targetFinderExpression="feature:beliefsystemtype">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="presenceContainerEdge" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='presenceSheetContainer']/@subNodeMappings[name='presence']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='LocationNode']" targetFinderExpression="feature:location" sourceFinderExpression="feature:presences" domainClass="Event" useDomainElement="true">
+          <style sizeComputationExpression="2" routingStyle="manhattan">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="locationContainer" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='LocationNode']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='locationTypeNode']" targetFinderExpression="feature:locationtype">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="locationAnimalEdge" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='LocationNode']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='animalNode']" targetFinderExpression="feature:animals_that_occur">
+          <style sizeComputationExpression="2" routingStyle="manhattan">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="locationPlantEdge" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='LocationNode']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='plantNode']" targetFinderExpression="feature:plants_that_occur">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="beliefSystemRelEdge" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='beliefNode']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='beliefSystemNode']" targetFinderExpression="feature:beliefsystemtype">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="relationCharacter" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='relationshipNode']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='relationshipNode']" targetFinderExpression="feature:character" sourceFinderExpression="feature:character" domainClass="Relationship" useDomainElement="true">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="politicalbelief" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='politicalEntityNode']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='beliefNode']" targetFinderExpression="feature:beliefsystem">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="politicalLocation" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='politicalEntityNode']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='LocationNode']" targetFinderExpression="feature:is_concerned_with">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="politicalMembers" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='politicalEntityNode']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='CharacterNode']" targetFinderExpression="feature:members">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="CharacterSheetContainer" domainClass="CharacterSheet" childrenPresentation="List">
+          <subNodeMappings name="CharacterNodeTest" domainClass="Character">
+            <style xsi:type="style:SquareDescription" labelSize="12" labelExpression="feature:first_name" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="WorldConceptsContainer" semanticCandidatesExpression="feature:world_concepts" domainClass="WorldConcepts" childrenPresentation="List">
+          <subNodeMappings name="animalSpecies" semanticCandidatesExpression="feature:animalspeciestype" domainClass="AnimalSpeciesType">
+            <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="plantSpecies" domainClass="PlantSpeciesType">
+            <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="location" domainClass="LocationType">
+            <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="belief" domainClass="BeliefSystemType">
+            <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="relation" domainClass="RelationshipType">
+            <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="feature:animalspeciestype">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="LocationSheetContainer" domainClass="LocationSheet" childrenPresentation="List">
+          <subNodeMappings name="location" domainClass="Location">
+            <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="feature:location">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="PoliticalEntitySheetContainer" domainClass="PoliticalEntitySheet" childrenPresentation="List">
+          <subNodeMappings name="politicalEntity" domainClass="PoliticalEntity">
+            <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="feature:politicalentity">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="BeliefSystemSheetContainer" domainClass="BeliefSystemSheet" childrenPresentation="List">
+          <subNodeMappings name="beliefSystem" domainClass="BeliefSystem">
+            <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="feature:beliefsystem">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="eventSheetContainer" domainClass="EventSheet" childrenPresentation="List">
+          <subNodeMappings name="event" domainClass="Event">
+            <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="feature:event">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="presenceSheetContainer" domainClass="PresenceSheet" childrenPresentation="List">
+          <subNodeMappings name="presence" domainClass="Presence">
+            <style xsi:type="style:SquareDescription" labelSize="12" labelExpression="feature:event" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="feature:presence">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="CharacterContainer" domainClass="Character" childrenPresentation="List">
+          <subNodeMappings name="timestampNode" domainClass="Timestamp">
+            <style xsi:type="style:SquareDescription" labelSize="12" labelExpression="feature:year" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="relationshipNode" domainClass="Relationship">
+            <style xsi:type="style:SquareDescription" labelSize="12" labelExpression="feature:character" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="feature:first_name">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+            <labelBorderStyle href="environment:/viewpoint#//@labelBorderStyles/@labelBorderStyleDescriptions.2"/>
+          </style>
+        </containerMappings>
+        <toolSections name="palette">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="animalSpecies" elementsToSelect="feature:animalspeciestype" nodeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='WorldConceptsContainer']/@subNodeMappings[name='animalSpecies']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="AnimalSpeciesType" referenceName="animalspeciestype" variableName="animalinstance">
+                  <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:animalinstance">
+                    <subModelOperations xsi:type="properties:DialogModelOperation" titleExpression="Create new AnimalSpeciesType">
+                      <buttons labelExpression="Cancel" closeDialogOnClick="true" rollbackChangesOnClose="true">
+                        <initialOperation/>
+                      </buttons>
+                      <buttons labelExpression="OK" default="true" closeDialogOnClick="true">
+                        <initialOperation/>
+                      </buttons>
+                      <page name="Default Page" labelExpression="Page" semanticCandidateExpression="var:self" groups="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@toolSections.0/@ownedTools[name='animalSpecies']/@initialOperation/@firstModelOperations/@subModelOperations.0/@subModelOperations.0/@subModelOperations.0/@groups.0"/>
+                      <groups name="Default Group" labelExpression="Group" semanticCandidateExpression="var:self">
+                        <controls xsi:type="properties:TextDescription" labelExpression="AnimalSpeciesType:" valueExpression="aql:animalinstance.name">
+                          <initialOperation>
+                            <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                              <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:newValue"/>
+                            </firstModelOperations>
+                          </initialOperation>
+                        </controls>
+                      </groups>
+                    </subModelOperations>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="worldConceptsContainer" elementsToSelect="feature:world_concepts" containerMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='WorldConceptsContainer']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="WorldConcepts" referenceName="world_concepts">
+                  <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                    <subModelOperations xsi:type="properties:DialogModelOperation" titleExpression="Create new WorldConcepts">
+                      <buttons labelExpression="Cancel" closeDialogOnClick="true" rollbackChangesOnClose="true">
+                        <initialOperation/>
+                      </buttons>
+                      <buttons labelExpression="OK" default="true" closeDialogOnClick="true">
+                        <initialOperation/>
+                      </buttons>
+                      <page name="Default Page" labelExpression="Page" semanticCandidateExpression="var:self" groups="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@toolSections.0/@ownedTools[name='worldConceptsContainer']/@initialOperation/@firstModelOperations/@subModelOperations.0/@subModelOperations.0/@subModelOperations.0/@groups.0"/>
+                      <groups name="Default Group" labelExpression="Group" semanticCandidateExpression="var:self">
+                        <controls xsi:type="properties:TextDescription" labelExpression="WorldConcepts" valueExpression="aql:instance.animalspeciestype">
+                          <initialOperation>
+                            <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                              <subModelOperations xsi:type="tool_1:SetValue" featureName="animalspeciestype" valueExpression="var:newValue"/>
+                            </firstModelOperations>
+                          </initialOperation>
+                        </controls>
+                      </groups>
+                    </subModelOperations>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Event " elementsToSelect="event" nodeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='eventSheetContainer']/@subNodeMappings[name='event']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="Event" referenceName="event">
+                  <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                    <subModelOperations xsi:type="properties:DialogModelOperation" titleExpression="Create new Event">
+                      <buttons labelExpression="Cancel" closeDialogOnClick="true" rollbackChangesOnClose="true">
+                        <initialOperation/>
+                      </buttons>
+                      <buttons labelExpression="OK" default="true" closeDialogOnClick="true">
+                        <initialOperation/>
+                      </buttons>
+                      <page name="Default Page" labelExpression="Page" semanticCandidateExpression="var:self" groups="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@toolSections.0/@ownedTools[name='Event%20']/@initialOperation/@firstModelOperations/@subModelOperations.0/@subModelOperations.0/@subModelOperations.0/@groups.0"/>
+                      <groups name="Default Group" labelExpression="Group" semanticCandidateExpression="var:self">
+                        <controls xsi:type="properties:TextDescription" labelExpression="Event:" valueExpression="aql:instance.name">
+                          <initialOperation>
+                            <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                              <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:newValue"/>
+                            </firstModelOperations>
+                          </initialOperation>
+                        </controls>
+                      </groups>
+                    </subModelOperations>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Presence" elementsToSelect="feature:eContainer" edgeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@edgeMappings[name='CharacterPresenceEdge']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.eContainer()">
+                  <subModelOperations xsi:type="tool_1:CreateInstance" typeName="Presence" referenceName="presence">
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="event" valueExpression="var:event"/>
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="character" valueExpression="var:character">
+                      <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                        <subModelOperations xsi:type="tool_1:CreateInstance" typeName="Character" referenceName="character" variableName="characterInstance">
+                          <subModelOperations xsi:type="properties:DialogModelOperation" titleExpression="Create a new character">
+                            <buttons labelExpression="Cancel" closeDialogOnClick="true" rollbackChangesOnClose="true">
+                              <initialOperation/>
+                            </buttons>
+                            <buttons labelExpression="OK" default="true" closeDialogOnClick="true">
+                              <initialOperation/>
+                            </buttons>
+                            <page name="Default Page" labelExpression="Page" semanticCandidateExpression="var:self" groups="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@toolSections.0/@ownedTools[name='Presence']/@initialOperation/@firstModelOperations/@subModelOperations.0/@subModelOperations.0/@subModelOperations.1/@subModelOperations.0/@subModelOperations.0/@subModelOperations.0/@groups.0"/>
+                            <groups name="Default Group" labelExpression="Group" semanticCandidateExpression="var:self">
+                              <controls xsi:type="properties:TextDescription" labelExpression="Name:" valueExpression="aql:characterInstance.name">
+                                <initialOperation>
+                                  <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:characterInstance">
+                                    <subModelOperations xsi:type="tool_1:SetValue" featureName="first_name" valueExpression="aql:newValue"/>
+                                  </firstModelOperations>
+                                </initialOperation>
+                              </controls>
+                            </groups>
+                          </subModelOperations>
+                        </subModelOperations>
+                      </subModelOperations>
+                    </subModelOperations>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="character" elementsToSelect="feature:character" nodeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='CharacterNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="Character" referenceName="Character">
+                  <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                    <subModelOperations xsi:type="properties:DialogModelOperation" titleExpression="Create new character">
+                      <buttons labelExpression="Cancel" closeDialogOnClick="true" rollbackChangesOnClose="true">
+                        <initialOperation/>
+                      </buttons>
+                      <buttons labelExpression="OK" default="true" closeDialogOnClick="true">
+                        <initialOperation/>
+                      </buttons>
+                      <page name="Default Page" labelExpression="Page" semanticCandidateExpression="var:self" groups="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@toolSections.0/@ownedTools[name='character']/@initialOperation/@firstModelOperations/@subModelOperations.0/@subModelOperations.0/@subModelOperations.0/@groups.0"/>
+                      <groups name="Default Group" labelExpression="Group" semanticCandidateExpression="var:self">
+                        <controls xsi:type="properties:TextDescription" labelExpression="Character" valueExpression="aql:instance.name">
+                          <initialOperation>
+                            <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                              <subModelOperations xsi:type="tool_1:SetValue" featureName="first_name" valueExpression="var:newValue"/>
+                            </firstModelOperations>
+                          </initialOperation>
+                        </controls>
+                      </groups>
+                    </subModelOperations>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="locationNode" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='LocationNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="Location" referenceName="location">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:newValue"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="characterSheetContainer" elementsToSelect="feature:character_sheet" containerMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='CharacterSheetContainer']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="CharacterSheet" referenceName="character_sheet">
+                  <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                    <subModelOperations xsi:type="properties:DialogModelOperation" titleExpression="Create new character sheet">
+                      <buttons labelExpression="Cancel" closeDialogOnClick="true" rollbackChangesOnClose="true">
+                        <initialOperation/>
+                      </buttons>
+                      <buttons labelExpression="OK" default="true" closeDialogOnClick="true">
+                        <initialOperation/>
+                      </buttons>
+                      <page name="Default Page" labelExpression="Page" semanticCandidateExpression="var:self" groups="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@toolSections.0/@ownedTools[name='characterSheetContainer']/@initialOperation/@firstModelOperations/@subModelOperations.0/@subModelOperations.0/@subModelOperations.0/@groups.0"/>
+                      <groups name="Default Group" labelExpression="Group" semanticCandidateExpression="var:self">
+                        <controls xsi:type="properties:TextDescription" labelExpression="CharacterSheet" valueExpression="aql:instance.character">
+                          <initialOperation>
+                            <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                              <subModelOperations xsi:type="tool_1:SetValue" featureName="character" valueExpression="var:newValue"/>
+                            </firstModelOperations>
+                          </initialOperation>
+                        </controls>
+                      </groups>
+                    </subModelOperations>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="locationSheetContainer" elementsToSelect="feature:location_sheet" containerMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='LocationSheetContainer']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="LocationSheet" referenceName="location_sheet">
+                  <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                    <subModelOperations xsi:type="properties:DialogModelOperation" titleExpression="Create new location sheet">
+                      <buttons labelExpression="Cancel" closeDialogOnClick="true" rollbackChangesOnClose="true">
+                        <initialOperation/>
+                      </buttons>
+                      <buttons labelExpression="OK" default="true" closeDialogOnClick="true">
+                        <initialOperation/>
+                      </buttons>
+                      <page name="Default Page" labelExpression="Page" semanticCandidateExpression="var:self" groups="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@toolSections.0/@ownedTools[name='locationSheetContainer']/@initialOperation/@firstModelOperations/@subModelOperations.0/@subModelOperations.0/@subModelOperations.0/@groups.0"/>
+                      <groups name="Default Group" labelExpression="Group" semanticCandidateExpression="var:self">
+                        <controls xsi:type="properties:TextDescription" labelExpression="LocationSheet" valueExpression="aql:instance.location">
+                          <initialOperation>
+                            <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                              <subModelOperations xsi:type="tool_1:SetValue" featureName="location" valueExpression="var:newValue"/>
+                            </firstModelOperations>
+                          </initialOperation>
+                        </controls>
+                      </groups>
+                    </subModelOperations>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="politicalEntitySheetContainer" elementsToSelect="feature:political_entity_sheet" containerMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='PoliticalEntitySheetContainer']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="PoliticalEntitySheet" referenceName="political_entity_sheet">
+                  <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                    <subModelOperations xsi:type="properties:DialogModelOperation" titleExpression="Create new political entity sheet">
+                      <buttons labelExpression="Cancel" closeDialogOnClick="true" rollbackChangesOnClose="true">
+                        <initialOperation/>
+                      </buttons>
+                      <buttons labelExpression="OK" default="true" closeDialogOnClick="true">
+                        <initialOperation/>
+                      </buttons>
+                      <page name="Default Page" labelExpression="Page" semanticCandidateExpression="var:self" groups="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@toolSections.0/@ownedTools[name='politicalEntitySheetContainer']/@initialOperation/@firstModelOperations/@subModelOperations.0/@subModelOperations.0/@subModelOperations.0/@groups.0"/>
+                      <groups name="Default Group" labelExpression="Group" semanticCandidateExpression="var:self">
+                        <controls xsi:type="properties:TextDescription" labelExpression="PoliticalEntitySheet" valueExpression="aql:instance.politicalentity">
+                          <initialOperation>
+                            <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                              <subModelOperations xsi:type="tool_1:SetValue" featureName="politicalentity" valueExpression="var:newValue"/>
+                            </firstModelOperations>
+                          </initialOperation>
+                        </controls>
+                      </groups>
+                    </subModelOperations>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="beiefSystemSheetContainer" elementsToSelect="feature:belief_system_sheet" containerMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='BeliefSystemSheetContainer']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="BeliefSystemSheet" referenceName="belief_system_sheet">
+                  <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                    <subModelOperations xsi:type="properties:DialogModelOperation" titleExpression="create new belief system sheet">
+                      <buttons labelExpression="Cancel" closeDialogOnClick="true" rollbackChangesOnClose="true">
+                        <initialOperation/>
+                      </buttons>
+                      <buttons labelExpression="OK" default="true" closeDialogOnClick="true">
+                        <initialOperation/>
+                      </buttons>
+                      <page name="Default Page" labelExpression="Page" semanticCandidateExpression="var:self" groups="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@toolSections.0/@ownedTools[name='beiefSystemSheetContainer']/@initialOperation/@firstModelOperations/@subModelOperations.0/@subModelOperations.0/@subModelOperations.0/@groups.0"/>
+                      <groups name="Default Group" labelExpression="Group" semanticCandidateExpression="var:self">
+                        <controls xsi:type="properties:TextDescription" labelExpression="BeliefSystemSheet" valueExpression="aql:instance.beliefsystem">
+                          <initialOperation>
+                            <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                              <subModelOperations xsi:type="tool_1:SetValue" featureName="beliefsystem" valueExpression="var:newValue"/>
+                            </firstModelOperations>
+                          </initialOperation>
+                        </controls>
+                      </groups>
+                    </subModelOperations>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="eventSheetContainer" elementsToSelect="feature:event_sheet" containerMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='eventSheetContainer']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="EventSheet" referenceName="event_sheet">
+                  <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                    <subModelOperations xsi:type="properties:DialogModelOperation" titleExpression="Create new event sheet">
+                      <buttons labelExpression="Cancel" closeDialogOnClick="true" rollbackChangesOnClose="true">
+                        <initialOperation/>
+                      </buttons>
+                      <buttons labelExpression="OK" default="true" closeDialogOnClick="true">
+                        <initialOperation/>
+                      </buttons>
+                      <page name="Default Page" labelExpression="Page" semanticCandidateExpression="var:self" groups="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@toolSections.0/@ownedTools[name='eventSheetContainer']/@initialOperation/@firstModelOperations/@subModelOperations.0/@subModelOperations.0/@subModelOperations.0/@groups.0"/>
+                      <groups name="Default Group" labelExpression="Group" semanticCandidateExpression="var:self">
+                        <controls xsi:type="properties:TextDescription" labelExpression="EventSheet" valueExpression="aql:instance.event">
+                          <initialOperation>
+                            <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                              <subModelOperations xsi:type="tool_1:SetValue" featureName="event" valueExpression="var:newValue"/>
+                            </firstModelOperations>
+                          </initialOperation>
+                        </controls>
+                      </groups>
+                    </subModelOperations>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="presenceSheetContainer" elementsToSelect="feature:presence_sheet" containerMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='presenceSheetContainer']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="PresenceSheet" referenceName="presence_sheet">
+                  <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                    <subModelOperations xsi:type="properties:DialogModelOperation" titleExpression="Create new presence sheet">
+                      <buttons labelExpression="Cancel" closeDialogOnClick="true" rollbackChangesOnClose="true">
+                        <initialOperation/>
+                      </buttons>
+                      <buttons labelExpression="OK" default="true" closeDialogOnClick="true">
+                        <initialOperation/>
+                      </buttons>
+                      <page name="Default Page" labelExpression="Page" semanticCandidateExpression="var:self" groups="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@toolSections.0/@ownedTools[name='presenceSheetContainer']/@initialOperation/@firstModelOperations/@subModelOperations.0/@subModelOperations.0/@subModelOperations.0/@groups.0"/>
+                      <groups name="Default Group" labelExpression="Group" semanticCandidateExpression="var:self">
+                        <controls xsi:type="properties:TextDescription" labelExpression="PresenceSheet" valueExpression="aql:instance.presence">
+                          <initialOperation>
+                            <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                              <subModelOperations xsi:type="tool_1:SetValue" featureName="presence" valueExpression="var:newValue"/>
+                            </firstModelOperations>
+                          </initialOperation>
+                        </controls>
+                      </groups>
+                    </subModelOperations>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="my.project.design.Services"/>
+  </ownedViewpoints>
+</description:Group>
