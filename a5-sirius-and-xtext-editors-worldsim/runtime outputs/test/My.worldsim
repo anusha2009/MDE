@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ws:Root xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ws="WorldSim1">
+  <character_sheet>
+    <character first_name="Anusha" last_name="A" occupation="Student" children="//@character_sheet/@character.1" believes="//@belief_system_sheet/@beliefsystem.0" supports="//@political_entity_sheet/@politicalentity.0" animalspeciestype="//@world_concepts/@animalspeciestype.0">
+      <birth year="1999" month="12" day="20" hour="12" minute="12" second="12"/>
+      <relationship character="//@character_sheet/@character.1" relationshiptype="//@world_concepts/@relationshiptype.0"/>
+    </character>
+    <character first_name="Amrutha" last_name="A" believes="//@belief_system_sheet/@beliefsystem.0" supports="//@political_entity_sheet/@politicalentity.0" animalspeciestype="//@world_concepts/@animalspeciestype.0">
+      <birth year="1999" month="11" day="21" hour="11" minute="11" second="11"/>
+      <relationship character="//@character_sheet/@character.0" relationshiptype="//@world_concepts/@relationshiptype.0"/>
+    </character>
+  </character_sheet>
+  <world_concepts>
+    <animalspeciestype name="Human" natural_habitat="//@location_sheet/@location.0"/>
+    <plantspeciestype name="Shrubs" natural_habitat="//@location_sheet/@location.0"/>
+    <locationtype name="Finland" contains="//@world_concepts/@locationtype.0"/>
+    <beliefsystemtype name="NEW BELIEF"/>
+    <relationshiptype description="Friendship" name="Friends"/>
+  </world_concepts>
+  <location_sheet>
+    <location name="Location L1" locationtype="//@world_concepts/@locationtype.0" plants_that_occur="//@world_concepts/@plantspeciestype.0" animals_that_occur="//@world_concepts/@animalspeciestype.0" events="//@event_sheet/@event.0">
+      <coordinates latitude="12.0" longitude="12.0"/>
+    </location>
+  </location_sheet>
+  <political_entity_sheet>
+    <politicalentity name="Political Entity P1" beliefsystem="//@belief_system_sheet/@beliefsystem.0" members="//@character_sheet/@character.0" is_concerned_with="//@location_sheet/@location.0"/>
+  </political_entity_sheet>
+  <belief_system_sheet>
+    <beliefsystem name="Belief B1" beliefsystemtype="//@world_concepts/@beliefsystemtype.0" is_believed_by="//@character_sheet/@character.0 //@character_sheet/@character.1" related_events="//@event_sheet/@event.0"/>
+  </belief_system_sheet>
+  <event_sheet>
+    <event name="Event E1" location="//@location_sheet/@location.0" presences="//@presence_sheet/@presence.0" related_beliefs="//@belief_system_sheet/@beliefsystem.0"/>
+  </event_sheet>
+  <presence_sheet>
+    <presence location="//@location_sheet/@location.0" character="//@character_sheet/@character.0" event="//@event_sheet/@event.0">
+      <timeframe>
+        <start year="2023" month="12" day="1" hour="12" minute="12" second="12"/>
+        <end year="2023" month="12" day="2" hour="12" minute="12" second="12"/>
+      </timeframe>
+    </presence>
+  </presence_sheet>
+</ws:Root>

@@ -1,0 +1,1118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xmlns:ws="WorldSim1" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_DF0boLrLEe6nn9Qt6LyCuQ" selectedViews="_-TkLULt_Ee6AxasXbQRibg" version="15.2.0.202303281325">
+    <semanticResources>test.mydsll</semanticResources>
+    <semanticResources>My.worldsim</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_-TkLULt_Ee6AxasXbQRibg">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="__dyiwLt_Ee6AxasXbQRibg" name="new WorldSim" repPath="#__dJpkLt_Ee6AxasXbQRibg" changeId="1706375987811">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']"/>
+        <target xmi:type="ws:Root" href="My.worldsim#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="__dJpkLt_Ee6AxasXbQRibg">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="__fPUQLt_Ee6AxasXbQRibg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="__fPUQbt_Ee6AxasXbQRibg" type="Sirius" element="__dJpkLt_Ee6AxasXbQRibg" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_Npw-0Lu4Ee6lrd5EzmJqow" type="2001" element="_Npi8Ybu4Ee6lrd5EzmJqow">
+          <children xmi:type="notation:Node" xmi:id="_Np5hsLu4Ee6lrd5EzmJqow" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Np5hsbu4Ee6lrd5EzmJqow" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_NqEg0Lu4Ee6lrd5EzmJqow" type="3003" element="_NpkxkLu4Ee6lrd5EzmJqow">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_NqEg0bu4Ee6lrd5EzmJqow" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NqEg0ru4Ee6lrd5EzmJqow"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Npxl4Lu4Ee6lrd5EzmJqow" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Npxl4bu4Ee6lrd5EzmJqow" x="320" y="-32" width="89" height="65"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Np_oULu4Ee6lrd5EzmJqow" type="2001" element="_NpmmwLu4Ee6lrd5EzmJqow">
+          <children xmi:type="notation:Node" xmi:id="_NqAPYLu4Ee6lrd5EzmJqow" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_NqAPYbu4Ee6lrd5EzmJqow" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_NqG9ELu4Ee6lrd5EzmJqow" type="3003" element="_NpnN0Lu4Ee6lrd5EzmJqow">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_NqG9Ebu4Ee6lrd5EzmJqow" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NqG9Eru4Ee6lrd5EzmJqow"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Np_oUbu4Ee6lrd5EzmJqow" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Np_oUru4Ee6lrd5EzmJqow" x="-68" y="-244" width="73" height="69"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_NqA2cLu4Ee6lrd5EzmJqow" type="2001" element="_Npn04Lu4Ee6lrd5EzmJqow">
+          <children xmi:type="notation:Node" xmi:id="_NqA2c7u4Ee6lrd5EzmJqow" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_NqA2dLu4Ee6lrd5EzmJqow" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_NqHkILu4Ee6lrd5EzmJqow" type="3003" element="_Npn04bu4Ee6lrd5EzmJqow">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_NqILMLu4Ee6lrd5EzmJqow" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NqILMbu4Ee6lrd5EzmJqow"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_NqA2cbu4Ee6lrd5EzmJqow" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NqA2cru4Ee6lrd5EzmJqow" x="-159" y="-172" width="73" height="53"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_NqBdgLu4Ee6lrd5EzmJqow" type="2001" element="_Npn047u4Ee6lrd5EzmJqow">
+          <children xmi:type="notation:Node" xmi:id="_NqCEkLu4Ee6lrd5EzmJqow" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_NqCEkbu4Ee6lrd5EzmJqow" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_NqILMru4Ee6lrd5EzmJqow" type="3003" element="_Npob8Lu4Ee6lrd5EzmJqow">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_NqILM7u4Ee6lrd5EzmJqow" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NqILNLu4Ee6lrd5EzmJqow"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_NqBdgbu4Ee6lrd5EzmJqow" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NqBdgru4Ee6lrd5EzmJqow" x="253" y="-283" width="75" height="57"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_NqCroLu4Ee6lrd5EzmJqow" type="2001" element="_Npob8ru4Ee6lrd5EzmJqow">
+          <children xmi:type="notation:Node" xmi:id="_NqDSsLu4Ee6lrd5EzmJqow" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_NqDSsbu4Ee6lrd5EzmJqow" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_NqILNbu4Ee6lrd5EzmJqow" type="3003" element="_NppDALu4Ee6lrd5EzmJqow">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_NqILNru4Ee6lrd5EzmJqow" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NqILN7u4Ee6lrd5EzmJqow"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_NqCrobu4Ee6lrd5EzmJqow" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NqCroru4Ee6lrd5EzmJqow" x="40" y="460" width="69" height="45"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_pbSIgLu5Ee6e2a6lene39g" type="2003" element="_M5rqcLwgEe6FVaygMTZ5Og">
+          <children xmi:type="notation:Node" xmi:id="_pbe80Lu5Ee6e2a6lene39g" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_pbhZELu5Ee6e2a6lene39g" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_izWFYLwgEe6-yM94HmTBKA" type="3010" element="_izEYkLwgEe6-yM94HmTBKA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_izWscLwgEe6-yM94HmTBKA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_izWscbwgEe6-yM94HmTBKA"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_izaW0LwgEe6-yM94HmTBKA" type="3010" element="_izIC8LwgEe6-yM94HmTBKA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_izaW0bwgEe6-yM94HmTBKA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_izaW0rwgEe6-yM94HmTBKA"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_pbhZEbu5Ee6e2a6lene39g"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_pbhZEru5Ee6e2a6lene39g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_pbSvkLu5Ee6e2a6lene39g" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pbSvkbu5Ee6e2a6lene39g" x="628" y="-172" width="207" height="87"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_BJfH8LwiEe6L65tq-EViNw" type="2003" element="_sl6gwLwiEe6yT7JYscqhjg">
+          <children xmi:type="notation:Node" xmi:id="_BJkngLwiEe6L65tq-EViNw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_BJlOkLwiEe6L65tq-EViNw" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_smS7QLwiEe6yT7JYscqhjg" type="3010" element="_smE40LwiEe6yT7JYscqhjg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_smTiULwiEe6yT7JYscqhjg" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_smTiUbwiEe6yT7JYscqhjg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_smYa0LwiEe6yT7JYscqhjg" type="3010" element="_smGG8LwiEe6yT7JYscqhjg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_smYa0bwiEe6yT7JYscqhjg" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_smYa0rwiEe6yT7JYscqhjg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_smZB4LwiEe6yT7JYscqhjg" type="3010" element="_smGuALwiEe6yT7JYscqhjg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_smZB4bwiEe6yT7JYscqhjg" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_smZB4rwiEe6yT7JYscqhjg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_smZo8LwiEe6yT7JYscqhjg" type="3010" element="_smGuArwiEe6yT7JYscqhjg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_smZo8bwiEe6yT7JYscqhjg" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_smZo8rwiEe6yT7JYscqhjg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_smcsQLwiEe6yT7JYscqhjg" type="3010" element="_smH8ILwiEe6yT7JYscqhjg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_smcsQbwiEe6yT7JYscqhjg" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_smcsQrwiEe6yT7JYscqhjg"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_BJlOkbwiEe6L65tq-EViNw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_BJlOkrwiEe6L65tq-EViNw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_BJfH8bwiEe6L65tq-EViNw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BJfH8rwiEe6L65tq-EViNw" x="768" y="-54" width="243" height="187"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Dryv0LwmEe69HdF1gZCL8g" type="2003" element="_DrPWMLwmEe69HdF1gZCL8g">
+          <children xmi:type="notation:Node" xmi:id="_Dr5dgLwmEe69HdF1gZCL8g" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_Dr6EkLwmEe69HdF1gZCL8g" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_DsFDsLwmEe69HdF1gZCL8g" type="3010" element="_DrU1wLwmEe69HdF1gZCL8g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_DsFDsbwmEe69HdF1gZCL8g" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_DsFDsrwmEe69HdF1gZCL8g"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_Dr6EkbwmEe69HdF1gZCL8g"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_Dr6EkrwmEe69HdF1gZCL8g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_DrzW4LwmEe69HdF1gZCL8g" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DrzW4bwmEe69HdF1gZCL8g" x="628" y="-318" width="231" height="129"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Dr9u8LwmEe69HdF1gZCL8g" type="2003" element="_DrWD4bwmEe69HdF1gZCL8g">
+          <children xmi:type="notation:Node" xmi:id="_Dr-WALwmEe69HdF1gZCL8g" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_Dr-WAbwmEe69HdF1gZCL8g" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_DsGR0LwmEe69HdF1gZCL8g" type="3010" element="_DrXSALwmEe69HdF1gZCL8g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_DsGR0bwmEe69HdF1gZCL8g" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_DsGR0rwmEe69HdF1gZCL8g"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_Dr-WArwmEe69HdF1gZCL8g"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_Dr-WA7wmEe69HdF1gZCL8g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Dr9u8bwmEe69HdF1gZCL8g" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Dr9u8rwmEe69HdF1gZCL8g" x="888" y="-317" width="251" height="127"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Dr-9ELwmEe69HdF1gZCL8g" type="2003" element="_DrZHMLwmEe69HdF1gZCL8g">
+          <children xmi:type="notation:Node" xmi:id="_Dr_kILwmEe69HdF1gZCL8g" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_Dr_kIbwmEe69HdF1gZCL8g" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_DsGR07wmEe69HdF1gZCL8g" type="3010" element="_Dra8YLwmEe69HdF1gZCL8g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_DsGR1LwmEe69HdF1gZCL8g" fontName=".AppleSystemUIFont"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_DsGR1bwmEe69HdF1gZCL8g"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_Dr_kIrwmEe69HdF1gZCL8g"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_Dr_kI7wmEe69HdF1gZCL8g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Dr-9EbwmEe69HdF1gZCL8g" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Dr-9ErwmEe69HdF1gZCL8g" x="1076" y="-176" width="199" height="125"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_DsALMLwmEe69HdF1gZCL8g" type="2003" element="_DrcKgLwmEe69HdF1gZCL8g">
+          <children xmi:type="notation:Node" xmi:id="_DsCAYLwmEe69HdF1gZCL8g" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_DsCncLwmEe69HdF1gZCL8g" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_DsG44LwmEe69HdF1gZCL8g" type="3010" element="_Drd_sLwmEe69HdF1gZCL8g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_DsG44bwmEe69HdF1gZCL8g" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_DsG44rwmEe69HdF1gZCL8g"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_DsCncbwmEe69HdF1gZCL8g"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_DsCncrwmEe69HdF1gZCL8g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_DsALMbwmEe69HdF1gZCL8g" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DsALMrwmEe69HdF1gZCL8g" x="860" y="-178" width="179" height="99"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_DsCnc7wmEe69HdF1gZCL8g" type="2003" element="_Drf04bwmEe69HdF1gZCL8g">
+          <children xmi:type="notation:Node" xmi:id="_DsDOgrwmEe69HdF1gZCL8g" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_DsDOg7wmEe69HdF1gZCL8g" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_DsJVILwmEe69HdF1gZCL8g" type="3010" element="_DrhqELwmEe69HdF1gZCL8g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_DsJVIbwmEe69HdF1gZCL8g" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_DsJVIrwmEe69HdF1gZCL8g"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_DsDOhLwmEe69HdF1gZCL8g"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_DsDOhbwmEe69HdF1gZCL8g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_DsDOgLwmEe69HdF1gZCL8g" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DsDOgbwmEe69HdF1gZCL8g" x="1164" y="-308" width="303" height="107"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_BDnsULwpEe6-Af2XcpAuZw" type="2001" element="_BDFg0LwpEe6-Af2XcpAuZw">
+          <children xmi:type="notation:Node" xmi:id="_BDvBELwpEe6-Af2XcpAuZw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_BDvBEbwpEe6-Af2XcpAuZw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_BDzSgLwpEe6-Af2XcpAuZw" type="3003" element="_BDIkILwpEe6-Af2XcpAuZw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_BDzSgbwpEe6-Af2XcpAuZw" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BDzSgrwpEe6-Af2XcpAuZw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_BDoTYLwpEe6-Af2XcpAuZw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BDoTYbwpEe6-Af2XcpAuZw" x="242" y="-192" width="97" height="37"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Uu6o4LxCEe6qMMYWE7aHRQ" type="2001" element="_UuRIobxCEe6qMMYWE7aHRQ">
+          <children xmi:type="notation:Node" xmi:id="_UvBWkLxCEe6qMMYWE7aHRQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_UvBWkbxCEe6qMMYWE7aHRQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_UvIrULxCEe6qMMYWE7aHRQ" type="3003" element="_UuSWwLxCEe6qMMYWE7aHRQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_UvIrUbxCEe6qMMYWE7aHRQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UvIrUrxCEe6qMMYWE7aHRQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Uu7P8LxCEe6qMMYWE7aHRQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Uu7P8bxCEe6qMMYWE7aHRQ" x="-87" y="55" width="109" height="36"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_G4UdwLxIEe64-PpZRrDq2w" type="2001" element="_G3n6M7xIEe64-PpZRrDq2w">
+          <children xmi:type="notation:Node" xmi:id="_G4akYLxIEe64-PpZRrDq2w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_G4akYbxIEe64-PpZRrDq2w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_G4grALxIEe64-PpZRrDq2w" type="3003" element="_G3rkkLxIEe64-PpZRrDq2w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_G4grAbxIEe64-PpZRrDq2w" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G4grArxIEe64-PpZRrDq2w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_G4VE0LxIEe64-PpZRrDq2w" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G4VE0bxIEe64-PpZRrDq2w" x="-73" y="-40" width="91" height="47"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ZkNN8LxwEe6VMcE1mcyJ0g" type="2001" element="_ZjQLsLxwEe6VMcE1mcyJ0g">
+          <children xmi:type="notation:Node" xmi:id="_ZkUisLxwEe6VMcE1mcyJ0g" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ZkUisbxwEe6VMcE1mcyJ0g" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ZkapULxwEe6VMcE1mcyJ0g" type="3003" element="_ZjW5YLxwEe6VMcE1mcyJ0g">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ZkapUbxwEe6VMcE1mcyJ0g" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZkapUrxwEe6VMcE1mcyJ0g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ZkN1ALxwEe6VMcE1mcyJ0g" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZkN1AbxwEe6VMcE1mcyJ0g" x="120" y="104" width="105" height="49"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ZkY0ILxwEe6VMcE1mcyJ0g" type="2001" element="_ZjbK0LxwEe6VMcE1mcyJ0g">
+          <children xmi:type="notation:Node" xmi:id="_ZkZbMLxwEe6VMcE1mcyJ0g" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ZkZbMbxwEe6VMcE1mcyJ0g" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ZkdsoLxwEe6VMcE1mcyJ0g" type="3003" element="_ZjbK0bxwEe6VMcE1mcyJ0g">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ZkdsobxwEe6VMcE1mcyJ0g" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZkdsorxwEe6VMcE1mcyJ0g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ZkY0IbxwEe6VMcE1mcyJ0g" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZkY0IrxwEe6VMcE1mcyJ0g" x="380" y="96" width="85" height="49"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Q0_GsL0CEe6_RaqqSC6iuw" type="2001" element="_Q0Pf0L0CEe6_RaqqSC6iuw">
+          <children xmi:type="notation:Node" xmi:id="_Q1Bi8L0CEe6_RaqqSC6iuw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Q1Bi8b0CEe6_RaqqSC6iuw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Q1I3sL0CEe6_RaqqSC6iuw" type="3003" element="_Q0Pf0b0CEe6_RaqqSC6iuw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Q1I3sb0CEe6_RaqqSC6iuw" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q1I3sr0CEe6_RaqqSC6iuw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Q0_Gsb0CEe6_RaqqSC6iuw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q0_Gsr0CEe6_RaqqSC6iuw" x="40" y="328" width="149" height="97"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Q1CKAL0CEe6_RaqqSC6iuw" type="2001" element="_Q0QG4b0CEe6_RaqqSC6iuw">
+          <children xmi:type="notation:Node" xmi:id="_Q1CxEL0CEe6_RaqqSC6iuw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Q1CxEb0CEe6_RaqqSC6iuw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Q1I3s70CEe6_RaqqSC6iuw" type="3003" element="_Q0QG4r0CEe6_RaqqSC6iuw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Q1I3tL0CEe6_RaqqSC6iuw" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q1I3tb0CEe6_RaqqSC6iuw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Q1CKAb0CEe6_RaqqSC6iuw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q1CKAr0CEe6_RaqqSC6iuw" x="40" y="204" width="149" height="85"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_cfaJoL0GEe6N1787MRYmhA" type="2001" element="_ceuNIL0GEe6N1787MRYmhA">
+          <children xmi:type="notation:Node" xmi:id="_cfisgL0GEe6N1787MRYmhA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_cfisgb0GEe6N1787MRYmhA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_cfqBQL0GEe6N1787MRYmhA" type="3003" element="_cexQcL0GEe6N1787MRYmhA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_cfqBQb0GEe6N1787MRYmhA" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cfqBQr0GEe6N1787MRYmhA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_cfawsL0GEe6N1787MRYmhA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cfawsb0GEe6N1787MRYmhA" x="76" y="-193" width="93" height="53"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_erJEkL0KEe6ufpPAngzw5A" type="2003" element="_eprE8L0KEe6ufpPAngzw5A">
+          <children xmi:type="notation:Node" xmi:id="_erKSsL0KEe6ufpPAngzw5A" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_erMH4L0KEe6ufpPAngzw5A" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_erVR0L0KEe6ufpPAngzw5A" type="3010" element="_eps6I70KEe6ufpPAngzw5A">
+              <styles xmi:type="notation:FontStyle" xmi:id="_erVR0b0KEe6ufpPAngzw5A" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_erVR0r0KEe6ufpPAngzw5A"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_erV44L0KEe6ufpPAngzw5A" type="3010" element="_epthML0KEe6ufpPAngzw5A">
+              <styles xmi:type="notation:FontStyle" xmi:id="_erV44b0KEe6ufpPAngzw5A" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_erV44r0KEe6ufpPAngzw5A"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_erV4470KEe6ufpPAngzw5A" type="3010" element="_ep0O4L0KEe6ufpPAngzw5A">
+              <styles xmi:type="notation:FontStyle" xmi:id="_erV45L0KEe6ufpPAngzw5A" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_erV45b0KEe6ufpPAngzw5A"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_erWf8L0KEe6ufpPAngzw5A" type="3010" element="_ep5HYL0KEe6ufpPAngzw5A">
+              <styles xmi:type="notation:FontStyle" xmi:id="_erXHAL0KEe6ufpPAngzw5A" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_erXHAb0KEe6ufpPAngzw5A"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_erYVIL0KEe6ufpPAngzw5A" type="3010" element="_ep5HYr0KEe6ufpPAngzw5A">
+              <styles xmi:type="notation:FontStyle" xmi:id="_erYVIb0KEe6ufpPAngzw5A" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_erYVIr0KEe6ufpPAngzw5A"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_erYVI70KEe6ufpPAngzw5A" type="3010" element="_ep5ucb0KEe6ufpPAngzw5A">
+              <styles xmi:type="notation:FontStyle" xmi:id="_erYVJL0KEe6ufpPAngzw5A" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_erYVJb0KEe6ufpPAngzw5A"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_erMH4b0KEe6ufpPAngzw5A"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_erMH4r0KEe6ufpPAngzw5A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_erJEkb0KEe6ufpPAngzw5A" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_erJEkr0KEe6ufpPAngzw5A" x="1520" y="-328"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_erN9EL0KEe6ufpPAngzw5A" type="2003" element="_eps6IL0KEe6ufpPAngzw5A">
+          <children xmi:type="notation:Node" xmi:id="_erPLML0KEe6ufpPAngzw5A" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_erPyQL0KEe6ufpPAngzw5A" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_erY8ML0KEe6ufpPAngzw5A" type="3010" element="_ep6Vgb0KEe6ufpPAngzw5A">
+              <styles xmi:type="notation:FontStyle" xmi:id="_erY8Mb0KEe6ufpPAngzw5A" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_erY8Mr0KEe6ufpPAngzw5A"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_erY8M70KEe6ufpPAngzw5A" type="3010" element="_ep7job0KEe6ufpPAngzw5A">
+              <styles xmi:type="notation:FontStyle" xmi:id="_erY8NL0KEe6ufpPAngzw5A" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_erY8Nb0KEe6ufpPAngzw5A"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_erY8Nr0KEe6ufpPAngzw5A" type="3010" element="_ep8KsL0KEe6ufpPAngzw5A">
+              <styles xmi:type="notation:FontStyle" xmi:id="_erY8N70KEe6ufpPAngzw5A" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_erY8OL0KEe6ufpPAngzw5A"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_eraxYL0KEe6ufpPAngzw5A" type="3010" element="_ep8Ksr0KEe6ufpPAngzw5A">
+              <styles xmi:type="notation:FontStyle" xmi:id="_eraxYb0KEe6ufpPAngzw5A" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_eraxYr0KEe6ufpPAngzw5A"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_erb_gL0KEe6ufpPAngzw5A" type="3010" element="_ep8KtL0KEe6ufpPAngzw5A">
+              <styles xmi:type="notation:FontStyle" xmi:id="_erb_gb0KEe6ufpPAngzw5A" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_erb_gr0KEe6ufpPAngzw5A"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ercmkL0KEe6ufpPAngzw5A" type="3010" element="_ep-m8L0KEe6ufpPAngzw5A">
+              <styles xmi:type="notation:FontStyle" xmi:id="_ercmkb0KEe6ufpPAngzw5A" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_ercmkr0KEe6ufpPAngzw5A"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_erPyQb0KEe6ufpPAngzw5A"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_erPyQr0KEe6ufpPAngzw5A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_erN9Eb0KEe6ufpPAngzw5A" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_erN9Er0KEe6ufpPAngzw5A" x="1520" y="-166"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="__fPUQrt_Ee6AxasXbQRibg"/>
+        <edges xmi:type="notation:Edge" xmi:id="_G45FgLxIEe64-PpZRrDq2w" type="4001" element="_G4JeoLxIEe64-PpZRrDq2w" source="_Uu6o4LxCEe6qMMYWE7aHRQ" target="_G4UdwLxIEe64-PpZRrDq2w">
+          <children xmi:type="notation:Node" xmi:id="_G45skLxIEe64-PpZRrDq2w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G45skbxIEe64-PpZRrDq2w" x="5" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_G45skrxIEe64-PpZRrDq2w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G45sk7xIEe64-PpZRrDq2w" x="24" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_G45slLxIEe64-PpZRrDq2w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G45slbxIEe64-PpZRrDq2w" x="-13" y="-10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_G45FgbxIEe64-PpZRrDq2w" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_G45FgrxIEe64-PpZRrDq2w" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_G45Fg7xIEe64-PpZRrDq2w" points="[9, 0, 34, 65]$[9, -48, 34, 17]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_G48v4LxIEe64-PpZRrDq2w" id="(0.4954128440366973,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_G4-lELxIEe64-PpZRrDq2w" id="(0.16483516483516483,0.6382978723404256)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_Zkm2kLxwEe6VMcE1mcyJ0g" type="4001" element="_Zj2BkLxwEe6VMcE1mcyJ0g" source="_ZkNN8LxwEe6VMcE1mcyJ0g" target="_Uu6o4LxCEe6qMMYWE7aHRQ">
+          <children xmi:type="notation:Node" xmi:id="_ZkoEsLxwEe6VMcE1mcyJ0g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZkoEsbxwEe6VMcE1mcyJ0g" x="78" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Zkp54LxwEe6VMcE1mcyJ0g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zkp54bxwEe6VMcE1mcyJ0g" x="-1" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Zkp54rxwEe6VMcE1mcyJ0g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zkp547xwEe6VMcE1mcyJ0g" x="23"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Zkm2kbxwEe6VMcE1mcyJ0g" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Zkm2krxwEe6VMcE1mcyJ0g" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Zkm2k7xwEe6VMcE1mcyJ0g" points="[0, 0, 168, 13]$[0, -24, 168, -11]$[-113, -24, 55, -11]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZkxOoLxwEe6VMcE1mcyJ0g" id="(0.14285714285714285,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zkx1sLxwEe6VMcE1mcyJ0g" id="(0.4954128440366973,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_ZkycwLxwEe6VMcE1mcyJ0g" type="4001" element="_Zj_LgrxwEe6VMcE1mcyJ0g" source="_ZkNN8LxwEe6VMcE1mcyJ0g" target="_Npw-0Lu4Ee6lrd5EzmJqow">
+          <children xmi:type="notation:Node" xmi:id="_Zkzq4LxwEe6VMcE1mcyJ0g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zkzq4bxwEe6VMcE1mcyJ0g" x="-4" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Zkzq4rxwEe6VMcE1mcyJ0g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zkzq47xwEe6VMcE1mcyJ0g" x="-2" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Zkzq5LxwEe6VMcE1mcyJ0g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zkzq5bxwEe6VMcE1mcyJ0g" x="-10" y="1"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ZkycwbxwEe6VMcE1mcyJ0g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ZkycwrxwEe6VMcE1mcyJ0g" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Zkycw7xwEe6VMcE1mcyJ0g" points="[90, 8, -139, 79]$[197, 8, -32, 79]$[205, -71, -24, 0]$[205, -64, -24, 7]$[209, -71, -20, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zk0R8LxwEe6VMcE1mcyJ0g" id="(0.14285714285714285,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zk0R8bxwEe6VMcE1mcyJ0g" id="(0.4943820224719101,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_Zk0R8rxwEe6VMcE1mcyJ0g" type="4001" element="_Zj_ylLxwEe6VMcE1mcyJ0g" source="_ZkY0ILxwEe6VMcE1mcyJ0g" target="_Npw-0Lu4Ee6lrd5EzmJqow">
+          <children xmi:type="notation:Node" xmi:id="_Zk0R9rxwEe6VMcE1mcyJ0g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zk0R97xwEe6VMcE1mcyJ0g" x="13" y="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Zk0R-LxwEe6VMcE1mcyJ0g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zk05ALxwEe6VMcE1mcyJ0g"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Zk05AbxwEe6VMcE1mcyJ0g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zk05ArxwEe6VMcE1mcyJ0g" x="6"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Zk0R87xwEe6VMcE1mcyJ0g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Zk0R9LxwEe6VMcE1mcyJ0g" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Zk0R9bxwEe6VMcE1mcyJ0g" points="[0, 0, 31, 63]$[-31, -63, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zk2uMLxwEe6VMcE1mcyJ0g" id="(0.17647058823529413,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zk2uMbxwEe6VMcE1mcyJ0g" id="(0.4943820224719101,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_Zk2uMrxwEe6VMcE1mcyJ0g" type="4001" element="_ZkBAsLxwEe6VMcE1mcyJ0g" source="_ZkNN8LxwEe6VMcE1mcyJ0g" target="_BDnsULwpEe6-Af2XcpAuZw">
+          <children xmi:type="notation:Node" xmi:id="_Zk3VQLxwEe6VMcE1mcyJ0g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zk3VQbxwEe6VMcE1mcyJ0g" x="-102" y="-2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Zk38ULxwEe6VMcE1mcyJ0g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zk38UbxwEe6VMcE1mcyJ0g" x="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Zk38UrxwEe6VMcE1mcyJ0g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zk38U7xwEe6VMcE1mcyJ0g" x="-156" y="2"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Zk2uM7xwEe6VMcE1mcyJ0g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Zk2uNLxwEe6VMcE1mcyJ0g" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Zk2uNbxwEe6VMcE1mcyJ0g" points="[90, 0, -37, 261]$[121, 0, -6, 261]$[121, -88, -6, 173]$[121, -259, -6, 2]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zk4jYLxwEe6VMcE1mcyJ0g" id="(0.14285714285714285,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zk4jYbxwEe6VMcE1mcyJ0g" id="(0.20618556701030927,0.9459459459459459)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_Zk4jYrxwEe6VMcE1mcyJ0g" type="4001" element="_ZkCO0LxwEe6VMcE1mcyJ0g" source="_ZkNN8LxwEe6VMcE1mcyJ0g" target="_ZkY0ILxwEe6VMcE1mcyJ0g">
+          <children xmi:type="notation:Node" xmi:id="_Zk4jZrxwEe6VMcE1mcyJ0g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zk4jZ7xwEe6VMcE1mcyJ0g" x="-17" y="-15"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Zk4jaLxwEe6VMcE1mcyJ0g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zk4jabxwEe6VMcE1mcyJ0g" x="-17" y="2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Zk4jarxwEe6VMcE1mcyJ0g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zk4ja7xwEe6VMcE1mcyJ0g" x="-12" y="5"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Zk4jY7xwEe6VMcE1mcyJ0g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Zk4jZLxwEe6VMcE1mcyJ0g" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Zk4jZbxwEe6VMcE1mcyJ0g" points="[1, 0, -170, 0]$[156, 0, -15, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zk5KcLxwEe6VMcE1mcyJ0g" id="(0.9904761904761905,0.4489795918367347)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zk5KcbxwEe6VMcE1mcyJ0g" id="(0.17647058823529413,0.6122448979591837)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_RdMbYLzwEe6ddc3AmQ0Lkw" type="4001" element="_RcoasrzwEe6ddc3AmQ0Lkw" source="_BDnsULwpEe6-Af2XcpAuZw" target="_Uu6o4LxCEe6qMMYWE7aHRQ">
+          <children xmi:type="notation:Node" xmi:id="_RdZPsLzwEe6ddc3AmQ0Lkw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RdZPsbzwEe6ddc3AmQ0Lkw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Rdc6ELzwEe6ddc3AmQ0Lkw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Rdc6EbzwEe6ddc3AmQ0Lkw" x="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_RdeIMLzwEe6ddc3AmQ0Lkw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RdeIMbzwEe6ddc3AmQ0Lkw" y="-10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_RdOQkLzwEe6ddc3AmQ0Lkw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_RdOQkbzwEe6ddc3AmQ0Lkw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RdOQkrzwEe6ddc3AmQ0Lkw" points="[6, 19, 329, -228]$[6, 247, 329, 0]$[-268, 247, 55, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Rdk14LzwEe6ddc3AmQ0Lkw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Rdk14bzwEe6ddc3AmQ0Lkw" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_YSCSoLz4Ee6OG7u-db658Q" type="4001" element="_YReR8Lz4Ee6OG7u-db658Q" source="_G4UdwLxIEe64-PpZRrDq2w" target="_NqA2cLu4Ee6lrd5EzmJqow">
+          <children xmi:type="notation:Node" xmi:id="_YSJnYLz4Ee6OG7u-db658Q" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YSJnYbz4Ee6OG7u-db658Q" x="22" y="-5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_YSMqsLz4Ee6OG7u-db658Q" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YSMqsbz4Ee6OG7u-db658Q" x="-13" y="3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_YSPG8Lz4Ee6OG7u-db658Q" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YSPG8bz4Ee6OG7u-db658Q" x="-13" y="3"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_YSC5sLz4Ee6OG7u-db658Q"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_YSC5sbz4Ee6OG7u-db658Q" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YSC5srz4Ee6OG7u-db658Q" points="[-17, -23, 78, 106]$[-76, -102, 19, 27]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YSWbsLz4Ee6OG7u-db658Q" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YSWbsbz4Ee6OG7u-db658Q" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_NeFqEL0HEe66sJjVdHsWDw" type="4001" element="_NdoXEL0HEe66sJjVdHsWDw" source="_cfaJoL0GEe6N1787MRYmhA" target="_BDnsULwpEe6-Af2XcpAuZw">
+          <children xmi:type="notation:Node" xmi:id="_NeM-0L0HEe66sJjVdHsWDw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NeM-0b0HEe66sJjVdHsWDw" x="-9" y="-2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_NeQpML0HEe66sJjVdHsWDw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NeQpMb0HEe66sJjVdHsWDw" x="-2" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_NeR3UL0HEe66sJjVdHsWDw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NeR3Ub0HEe66sJjVdHsWDw" x="-1" y="-10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_NeGRIL0HEe66sJjVdHsWDw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_NeGRIb0HEe66sJjVdHsWDw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NeG4ML0HEe66sJjVdHsWDw" points="[47, -2, -121, 5]$[120, -5, -48, 2]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NeboUL0HEe66sJjVdHsWDw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NecPYL0HEe66sJjVdHsWDw" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_NeeEkL0HEe66sJjVdHsWDw" type="4001" element="_Ndt2oL0HEe66sJjVdHsWDw" source="_cfaJoL0GEe6N1787MRYmhA" target="_G4UdwLxIEe64-PpZRrDq2w">
+          <children xmi:type="notation:Node" xmi:id="_NefSsL0HEe66sJjVdHsWDw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NefSsb0HEe66sJjVdHsWDw" x="6" y="4"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Negg0L0HEe66sJjVdHsWDw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NehH4L0HEe66sJjVdHsWDw" x="-8" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Nehu8L0HEe66sJjVdHsWDw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Nehu8b0HEe66sJjVdHsWDw" x="-9" y="11"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_NeeEkb0HEe66sJjVdHsWDw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_NeeEkr0HEe66sJjVdHsWDw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NeeEk70HEe66sJjVdHsWDw" points="[-27, 27, 123, -123]$[-127, 127, 23, -23]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Nei9EL0HEe66sJjVdHsWDw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Nei9Eb0HEe66sJjVdHsWDw" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_Nei9Er0HEe66sJjVdHsWDw" type="4001" element="_Ndvr0L0HEe66sJjVdHsWDw" source="_cfaJoL0GEe6N1787MRYmhA" target="_ZkNN8LxwEe6VMcE1mcyJ0g">
+          <children xmi:type="notation:Node" xmi:id="_NejkIL0HEe66sJjVdHsWDw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NejkIb0HEe66sJjVdHsWDw" x="-11" y="1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_NejkIr0HEe66sJjVdHsWDw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NejkI70HEe66sJjVdHsWDw" x="8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_NejkJL0HEe66sJjVdHsWDw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NejkJb0HEe66sJjVdHsWDw" x="9" y="-1"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Nei9E70HEe66sJjVdHsWDw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Nei9FL0HEe66sJjVdHsWDw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Nei9Fb0HEe66sJjVdHsWDw" points="[-2, 3, -68, -268]$[-2, 271, -68, 0]$[14, 271, -52, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NekyQL0HEe66sJjVdHsWDw" id="(0.3225806451612903,0.9433962264150944)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NekyQb0HEe66sJjVdHsWDw" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_NTVcgL0QEe6TH9awCC4zmw" type="4001" element="_NSlOkL0QEe6TH9awCC4zmw" source="_G4UdwLxIEe64-PpZRrDq2w" target="_Npw-0Lu4Ee6lrd5EzmJqow">
+          <children xmi:type="notation:Node" xmi:id="_NTcxQL0QEe6TH9awCC4zmw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NTcxQb0QEe6TH9awCC4zmw" x="-253" y="252"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_NTfNgL0QEe6TH9awCC4zmw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NTfNgb0QEe6TH9awCC4zmw" x="-40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_NThCsL0QEe6TH9awCC4zmw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NThCsb0QEe6TH9awCC4zmw" x="-174" y="142"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_NTWqoL0QEe6TH9awCC4zmw" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_NTWqob0QEe6TH9awCC4zmw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NTWqor0QEe6TH9awCC4zmw" points="[44, -23, -348, -40]$[44, -295, -348, -312]$[464, -295, 72, -312]$[464, 17, 72, 0]$[437, 17, 45, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NTnJUL0QEe6TH9awCC4zmw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NTnJUb0QEe6TH9awCC4zmw" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_NTnwYL0QEe6TH9awCC4zmw" type="4001" element="_NSwNsL0QEe6TH9awCC4zmw" source="_G4UdwLxIEe64-PpZRrDq2w" target="_Np_oULu4Ee6lrd5EzmJqow">
+          <children xmi:type="notation:Node" xmi:id="_NTnwZL0QEe6TH9awCC4zmw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NTnwZb0QEe6TH9awCC4zmw" x="12" y="-11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_NTnwZr0QEe6TH9awCC4zmw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NTnwZ70QEe6TH9awCC4zmw" x="-4" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_NTnwaL0QEe6TH9awCC4zmw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NTnwab0QEe6TH9awCC4zmw" x="-4" y="8"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_NTnwYb0QEe6TH9awCC4zmw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_NTnwYr0QEe6TH9awCC4zmw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NTnwY70QEe6TH9awCC4zmw" points="[-1, -23, 3, 170]$[-4, -158, 0, 35]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NTso4L0QEe6TH9awCC4zmw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NTueEL0QEe6TH9awCC4zmw" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_NTvFIL0QEe6TH9awCC4zmw" type="4001" element="_NSyC4L0QEe6TH9awCC4zmw" source="_BDnsULwpEe6-Af2XcpAuZw" target="_NqBdgLu4Ee6lrd5EzmJqow">
+          <children xmi:type="notation:Node" xmi:id="_NTwTQL0QEe6TH9awCC4zmw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NTwTQb0QEe6TH9awCC4zmw" x="6" y="-8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_NTwTQr0QEe6TH9awCC4zmw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NTwTQ70QEe6TH9awCC4zmw" x="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_NTw6UL0QEe6TH9awCC4zmw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NTw6Ub0QEe6TH9awCC4zmw" x="6"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_NTvFIb0QEe6TH9awCC4zmw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_NTvFIr0QEe6TH9awCC4zmw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NTvFI70QEe6TH9awCC4zmw" points="[-2, -18, 5, 61]$[-5, -52, 2, 27]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NTxhYL0QEe6TH9awCC4zmw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NTxhYb0QEe6TH9awCC4zmw" id="(0.4066666666666667,0.5350877192982456)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="__frZILt_Ee6AxasXbQRibg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="__fsAMLt_Ee6AxasXbQRibg"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Npi8Ybu4Ee6lrd5EzmJqow" name="Human" incomingEdges="_Zj_LgrxwEe6VMcE1mcyJ0g _Zj_ylLxwEe6VMcE1mcyJ0g _NSlOkL0QEe6TH9awCC4zmw" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="ws:AnimalSpeciesType" href="My.worldsim#//@world_concepts/@animalspeciestype.0"/>
+      <semanticElements xmi:type="ws:AnimalSpeciesType" href="My.worldsim#//@world_concepts/@animalspeciestype.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_NpkxkLu4Ee6lrd5EzmJqow" labelSize="12" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='animalNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='animalNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_NpmmwLu4Ee6lrd5EzmJqow" name="Shrubs" incomingEdges="_NSwNsL0QEe6TH9awCC4zmw" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="ws:PlantSpeciesType" href="My.worldsim#//@world_concepts/@plantspeciestype.0"/>
+      <semanticElements xmi:type="ws:PlantSpeciesType" href="My.worldsim#//@world_concepts/@plantspeciestype.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_NpnN0Lu4Ee6lrd5EzmJqow" labelSize="12" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='plantNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='plantNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Npn04Lu4Ee6lrd5EzmJqow" name="Finland" incomingEdges="_YReR8Lz4Ee6OG7u-db658Q" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="ws:LocationType" href="My.worldsim#//@world_concepts/@locationtype.0"/>
+      <semanticElements xmi:type="ws:LocationType" href="My.worldsim#//@world_concepts/@locationtype.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_Npn04bu4Ee6lrd5EzmJqow" labelSize="12" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='locationTypeNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='locationTypeNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Npn047u4Ee6lrd5EzmJqow" name="NEW BELIEF" incomingEdges="_NSyC4L0QEe6TH9awCC4zmw" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="ws:BeliefSystemType" href="My.worldsim#//@world_concepts/@beliefsystemtype.0"/>
+      <semanticElements xmi:type="ws:BeliefSystemType" href="My.worldsim#//@world_concepts/@beliefsystemtype.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_Npob8Lu4Ee6lrd5EzmJqow" labelSize="12" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='beliefSystemNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='beliefSystemNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Npob8ru4Ee6lrd5EzmJqow" name="Friends" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="ws:RelationshipType" href="My.worldsim#//@world_concepts/@relationshiptype.0"/>
+      <semanticElements xmi:type="ws:RelationshipType" href="My.worldsim#//@world_concepts/@relationshiptype.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_NppDALu4Ee6lrd5EzmJqow" labelSize="12" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='relationshipTypeNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='relationshipTypeNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_M5rqcLwgEe6FVaygMTZ5Og">
+      <target xmi:type="ws:CharacterSheet" href="My.worldsim#//@character_sheet"/>
+      <semanticElements xmi:type="ws:CharacterSheet" href="My.worldsim#//@character_sheet"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_M5xKALwgEe6FVaygMTZ5Og" labelSize="12" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='CharacterSheetContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='CharacterSheetContainer']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_izEYkLwgEe6-yM94HmTBKA" name="Anusha">
+        <target xmi:type="ws:Character" href="My.worldsim#//@character_sheet/@character.0"/>
+        <semanticElements xmi:type="ws:Character" href="My.worldsim#//@character_sheet/@character.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_izGNwLwgEe6-yM94HmTBKA" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='CharacterSheetContainer']/@subNodeMappings[name='CharacterNodeTest']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='CharacterSheetContainer']/@subNodeMappings[name='CharacterNodeTest']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_izIC8LwgEe6-yM94HmTBKA" name="Amrutha">
+        <target xmi:type="ws:Character" href="My.worldsim#//@character_sheet/@character.1"/>
+        <semanticElements xmi:type="ws:Character" href="My.worldsim#//@character_sheet/@character.1"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_izIqALwgEe6-yM94HmTBKA" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='CharacterSheetContainer']/@subNodeMappings[name='CharacterNodeTest']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='CharacterSheetContainer']/@subNodeMappings[name='CharacterNodeTest']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_sl6gwLwiEe6yT7JYscqhjg" name="[WorldSim.impl.AnimalSpeciesTypeImpl@61900c46 (description: null, name: Human)]">
+      <target xmi:type="ws:WorldConcepts" href="My.worldsim#//@world_concepts"/>
+      <semanticElements xmi:type="ws:WorldConcepts" href="My.worldsim#//@world_concepts"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_sl-yMLwiEe6yT7JYscqhjg" labelSize="12" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='WorldConceptsContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='WorldConceptsContainer']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_smE40LwiEe6yT7JYscqhjg" name="Human">
+        <target xmi:type="ws:AnimalSpeciesType" href="My.worldsim#//@world_concepts/@animalspeciestype.0"/>
+        <semanticElements xmi:type="ws:AnimalSpeciesType" href="My.worldsim#//@world_concepts/@animalspeciestype.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_smFf4LwiEe6yT7JYscqhjg" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='WorldConceptsContainer']/@subNodeMappings[name='animalSpecies']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='WorldConceptsContainer']/@subNodeMappings[name='animalSpecies']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_smGG8LwiEe6yT7JYscqhjg" name="Shrubs">
+        <target xmi:type="ws:PlantSpeciesType" href="My.worldsim#//@world_concepts/@plantspeciestype.0"/>
+        <semanticElements xmi:type="ws:PlantSpeciesType" href="My.worldsim#//@world_concepts/@plantspeciestype.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_smGG8bwiEe6yT7JYscqhjg" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='WorldConceptsContainer']/@subNodeMappings[name='plantSpecies']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='WorldConceptsContainer']/@subNodeMappings[name='plantSpecies']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_smGuALwiEe6yT7JYscqhjg" name="Finland">
+        <target xmi:type="ws:LocationType" href="My.worldsim#//@world_concepts/@locationtype.0"/>
+        <semanticElements xmi:type="ws:LocationType" href="My.worldsim#//@world_concepts/@locationtype.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_smGuAbwiEe6yT7JYscqhjg" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='WorldConceptsContainer']/@subNodeMappings[name='location']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='WorldConceptsContainer']/@subNodeMappings[name='location']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_smGuArwiEe6yT7JYscqhjg" name="NEW BELIEF">
+        <target xmi:type="ws:BeliefSystemType" href="My.worldsim#//@world_concepts/@beliefsystemtype.0"/>
+        <semanticElements xmi:type="ws:BeliefSystemType" href="My.worldsim#//@world_concepts/@beliefsystemtype.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_smHVELwiEe6yT7JYscqhjg" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='WorldConceptsContainer']/@subNodeMappings[name='belief']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='WorldConceptsContainer']/@subNodeMappings[name='belief']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_smH8ILwiEe6yT7JYscqhjg" name="Friends">
+        <target xmi:type="ws:RelationshipType" href="My.worldsim#//@world_concepts/@relationshiptype.0"/>
+        <semanticElements xmi:type="ws:RelationshipType" href="My.worldsim#//@world_concepts/@relationshiptype.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_smH8IbwiEe6yT7JYscqhjg" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='WorldConceptsContainer']/@subNodeMappings[name='relation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='WorldConceptsContainer']/@subNodeMappings[name='relation']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_DrPWMLwmEe69HdF1gZCL8g" name="[WorldSim.impl.LocationImpl@3cf61020 (description: null, name: Location L1, flag: null)]">
+      <target xmi:type="ws:LocationSheet" href="My.worldsim#//@location_sheet"/>
+      <semanticElements xmi:type="ws:LocationSheet" href="My.worldsim#//@location_sheet"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_DrRycLwmEe69HdF1gZCL8g" labelSize="12" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='LocationSheetContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='LocationSheetContainer']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_DrU1wLwmEe69HdF1gZCL8g" name="Location L1">
+        <target xmi:type="ws:Location" href="My.worldsim#//@location_sheet/@location.0"/>
+        <semanticElements xmi:type="ws:Location" href="My.worldsim#//@location_sheet/@location.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_DrWD4LwmEe69HdF1gZCL8g" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='LocationSheetContainer']/@subNodeMappings[name='location']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='LocationSheetContainer']/@subNodeMappings[name='location']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_DrWD4bwmEe69HdF1gZCL8g" name="[WorldSim.impl.PoliticalEntityImpl@276a60 (description: null, name: Political Entity P1)]">
+      <target xmi:type="ws:PoliticalEntitySheet" href="My.worldsim#//@political_entity_sheet"/>
+      <semanticElements xmi:type="ws:PoliticalEntitySheet" href="My.worldsim#//@political_entity_sheet"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_DrWD4rwmEe69HdF1gZCL8g" labelSize="12" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='PoliticalEntitySheetContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='PoliticalEntitySheetContainer']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_DrXSALwmEe69HdF1gZCL8g" name="Political Entity P1">
+        <target xmi:type="ws:PoliticalEntity" href="My.worldsim#//@political_entity_sheet/@politicalentity.0"/>
+        <semanticElements xmi:type="ws:PoliticalEntity" href="My.worldsim#//@political_entity_sheet/@politicalentity.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_DrX5ELwmEe69HdF1gZCL8g" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='PoliticalEntitySheetContainer']/@subNodeMappings[name='politicalEntity']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='PoliticalEntitySheetContainer']/@subNodeMappings[name='politicalEntity']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_DrZHMLwmEe69HdF1gZCL8g" name="[WorldSim.impl.BeliefSystemImpl@4a42e51 (description: null, name: Belief B1)]">
+      <target xmi:type="ws:BeliefSystemSheet" href="My.worldsim#//@belief_system_sheet"/>
+      <semanticElements xmi:type="ws:BeliefSystemSheet" href="My.worldsim#//@belief_system_sheet"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_DrZuQLwmEe69HdF1gZCL8g" labelSize="12" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='BeliefSystemSheetContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='BeliefSystemSheetContainer']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_Dra8YLwmEe69HdF1gZCL8g" name="Belief B1">
+        <target xmi:type="ws:BeliefSystem" href="My.worldsim#//@belief_system_sheet/@beliefsystem.0"/>
+        <semanticElements xmi:type="ws:BeliefSystem" href="My.worldsim#//@belief_system_sheet/@beliefsystem.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_pnwJsLwmEe69DMEnSwbP2A" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='BeliefSystemSheetContainer']/@subNodeMappings[name='beliefSystem']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='BeliefSystemSheetContainer']/@subNodeMappings[name='beliefSystem']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_DrcKgLwmEe69HdF1gZCL8g" name="[WorldSim.impl.EventImpl@305b3a50 (description: null, name: Event E1)]">
+      <target xmi:type="ws:EventSheet" href="My.worldsim#//@event_sheet"/>
+      <semanticElements xmi:type="ws:EventSheet" href="My.worldsim#//@event_sheet"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_DrcKgbwmEe69HdF1gZCL8g" labelSize="12" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='eventSheetContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='eventSheetContainer']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_Drd_sLwmEe69HdF1gZCL8g" name="Event E1">
+        <target xmi:type="ws:Event" href="My.worldsim#//@event_sheet/@event.0"/>
+        <semanticElements xmi:type="ws:Event" href="My.worldsim#//@event_sheet/@event.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_Drf04LwmEe69HdF1gZCL8g" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='eventSheetContainer']/@subNodeMappings[name='event']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='eventSheetContainer']/@subNodeMappings[name='event']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_Drf04bwmEe69HdF1gZCL8g" name="[WorldSim.impl.PresenceImpl@30e69c61]">
+      <target xmi:type="ws:PresenceSheet" href="My.worldsim#//@presence_sheet"/>
+      <semanticElements xmi:type="ws:PresenceSheet" href="My.worldsim#//@presence_sheet"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_Drgb8LwmEe69HdF1gZCL8g" labelSize="12" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='presenceSheetContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='presenceSheetContainer']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_DrhqELwmEe69HdF1gZCL8g" name="[WorldSim.impl.EventImpl@305b3a50 (description: null, name: Event E1)]">
+        <target xmi:type="ws:Presence" href="My.worldsim#//@presence_sheet/@presence.0"/>
+        <semanticElements xmi:type="ws:Presence" href="My.worldsim#//@presence_sheet/@presence.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_DriRILwmEe69HdF1gZCL8g" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='presenceSheetContainer']/@subNodeMappings[name='presence']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='presenceSheetContainer']/@subNodeMappings[name='presence']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_BDFg0LwpEe6-Af2XcpAuZw" name="Belief B1" outgoingEdges="_RcoasrzwEe6ddc3AmQ0Lkw _NSyC4L0QEe6TH9awCC4zmw" incomingEdges="_ZkBAsLxwEe6VMcE1mcyJ0g _NdoXEL0HEe66sJjVdHsWDw" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="ws:BeliefSystem" href="My.worldsim#//@belief_system_sheet/@beliefsystem.0"/>
+      <semanticElements xmi:type="ws:BeliefSystem" href="My.worldsim#//@belief_system_sheet/@beliefsystem.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_BDIkILwpEe6-Af2XcpAuZw" labelSize="12" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='beliefNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='beliefNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_UuRIobxCEe6qMMYWE7aHRQ" name="Event E1" outgoingEdges="_G4JeoLxIEe64-PpZRrDq2w" incomingEdges="_Zj2BkLxwEe6VMcE1mcyJ0g _RcoasrzwEe6ddc3AmQ0Lkw" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="ws:Event" href="My.worldsim#//@event_sheet/@event.0"/>
+      <semanticElements xmi:type="ws:Event" href="My.worldsim#//@event_sheet/@event.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_UuSWwLxCEe6qMMYWE7aHRQ" labelSize="12" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='eventNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='eventNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_G3n6M7xIEe64-PpZRrDq2w" name="Location L1" outgoingEdges="_YReR8Lz4Ee6OG7u-db658Q _NSlOkL0QEe6TH9awCC4zmw _NSwNsL0QEe6TH9awCC4zmw" incomingEdges="_G4JeoLxIEe64-PpZRrDq2w _Ndt2oL0HEe66sJjVdHsWDw" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="ws:Location" href="My.worldsim#//@location_sheet/@location.0"/>
+      <semanticElements xmi:type="ws:Location" href="My.worldsim#//@location_sheet/@location.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_G3rkkLxIEe64-PpZRrDq2w" labelSize="12" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='LocationNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='LocationNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_G4JeoLxIEe64-PpZRrDq2w" sourceNode="_UuRIobxCEe6qMMYWE7aHRQ" targetNode="_G3n6M7xIEe64-PpZRrDq2w">
+      <target xmi:type="ws:Presence" href="My.worldsim#//@presence_sheet/@presence.0"/>
+      <semanticElements xmi:type="ws:Presence" href="My.worldsim#//@presence_sheet/@presence.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_G4KFsLxIEe64-PpZRrDq2w" size="2" routingStyle="manhattan">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@edgeMappings[name='EventPresenceEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_G4KFsbxIEe64-PpZRrDq2w" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@edgeMappings[name='EventPresenceEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_ZjQLsLxwEe6VMcE1mcyJ0g" name="Anusha" outgoingEdges="_Zj2BkLxwEe6VMcE1mcyJ0g _Zj_LgrxwEe6VMcE1mcyJ0g _ZkBAsLxwEe6VMcE1mcyJ0g _ZkCO0LxwEe6VMcE1mcyJ0g" incomingEdges="_Ndvr0L0HEe66sJjVdHsWDw" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="ws:Character" href="My.worldsim#//@character_sheet/@character.0"/>
+      <semanticElements xmi:type="ws:Character" href="My.worldsim#//@character_sheet/@character.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_ZjW5YLxwEe6VMcE1mcyJ0g" labelSize="12" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='CharacterNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='CharacterNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_ZjbK0LxwEe6VMcE1mcyJ0g" name="Amrutha" outgoingEdges="_Zj_ylLxwEe6VMcE1mcyJ0g" incomingEdges="_ZkCO0LxwEe6VMcE1mcyJ0g" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="ws:Character" href="My.worldsim#//@character_sheet/@character.1"/>
+      <semanticElements xmi:type="ws:Character" href="My.worldsim#//@character_sheet/@character.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_ZjbK0bxwEe6VMcE1mcyJ0g" labelSize="12" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='CharacterNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='CharacterNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_Zj2BkLxwEe6VMcE1mcyJ0g" sourceNode="_ZjQLsLxwEe6VMcE1mcyJ0g" targetNode="_UuRIobxCEe6qMMYWE7aHRQ">
+      <target xmi:type="ws:Presence" href="My.worldsim#//@presence_sheet/@presence.0"/>
+      <semanticElements xmi:type="ws:Presence" href="My.worldsim#//@presence_sheet/@presence.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_Zj8IMLxwEe6VMcE1mcyJ0g" size="2" routingStyle="manhattan">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@edgeMappings[name='CharacterPresenceEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_Zj8IMbxwEe6VMcE1mcyJ0g" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@edgeMappings[name='CharacterPresenceEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_Zj_LgrxwEe6VMcE1mcyJ0g" sourceNode="_ZjQLsLxwEe6VMcE1mcyJ0g" targetNode="_Npi8Ybu4Ee6lrd5EzmJqow">
+      <target xmi:type="ws:Character" href="My.worldsim#//@character_sheet/@character.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_Zj_ykLxwEe6VMcE1mcyJ0g" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@edgeMappings[name='animalSpeciesEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_Zj_ykbxwEe6VMcE1mcyJ0g" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@edgeMappings[name='animalSpeciesEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_Zj_ylLxwEe6VMcE1mcyJ0g" sourceNode="_ZjbK0LxwEe6VMcE1mcyJ0g" targetNode="_Npi8Ybu4Ee6lrd5EzmJqow">
+      <target xmi:type="ws:Character" href="My.worldsim#//@character_sheet/@character.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_Zj_ylbxwEe6VMcE1mcyJ0g" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@edgeMappings[name='animalSpeciesEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_Zj_ylrxwEe6VMcE1mcyJ0g" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@edgeMappings[name='animalSpeciesEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_ZkBAsLxwEe6VMcE1mcyJ0g" sourceNode="_ZjQLsLxwEe6VMcE1mcyJ0g" targetNode="_BDFg0LwpEe6-Af2XcpAuZw">
+      <target xmi:type="ws:PoliticalEntity" href="My.worldsim#//@political_entity_sheet/@politicalentity.0"/>
+      <semanticElements xmi:type="ws:PoliticalEntity" href="My.worldsim#//@political_entity_sheet/@politicalentity.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_ZkBnwLxwEe6VMcE1mcyJ0g" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@edgeMappings[name='politicalEntityEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_ZkBnwbxwEe6VMcE1mcyJ0g" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@edgeMappings[name='politicalEntityEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_ZkCO0LxwEe6VMcE1mcyJ0g" sourceNode="_ZjQLsLxwEe6VMcE1mcyJ0g" targetNode="_ZjbK0LxwEe6VMcE1mcyJ0g">
+      <target xmi:type="ws:Character" href="My.worldsim#//@character_sheet/@character.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_ZkCO0bxwEe6VMcE1mcyJ0g" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@edgeMappings[name='ChildrenEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_ZkCO0rxwEe6VMcE1mcyJ0g" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@edgeMappings[name='ChildrenEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_RcoasrzwEe6ddc3AmQ0Lkw" sourceNode="_BDFg0LwpEe6-Af2XcpAuZw" targetNode="_UuRIobxCEe6qMMYWE7aHRQ">
+      <target xmi:type="ws:BeliefSystem" href="My.worldsim#//@belief_system_sheet/@beliefsystem.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_RcsFELzwEe6ddc3AmQ0Lkw" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@edgeMappings[name='eventBelief']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_RcsFEbzwEe6ddc3AmQ0Lkw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@edgeMappings[name='eventBelief']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_YReR8Lz4Ee6OG7u-db658Q" sourceNode="_G3n6M7xIEe64-PpZRrDq2w" targetNode="_Npn04Lu4Ee6lrd5EzmJqow">
+      <target xmi:type="ws:Location" href="My.worldsim#//@location_sheet/@location.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_YRijYLz4Ee6OG7u-db658Q" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@edgeMappings[name='locationContainer']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_YRijYbz4Ee6OG7u-db658Q" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@edgeMappings[name='locationContainer']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Q0Pf0L0CEe6_RaqqSC6iuw" name="WorldSim.impl.CharacterImpl@79dca6fe (description: null, first_name: Amrutha, last_name: A, occupation: null)" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="ws:Relationship" href="My.worldsim#//@character_sheet/@character.0/@relationship.0"/>
+      <semanticElements xmi:type="ws:Relationship" href="My.worldsim#//@character_sheet/@character.0/@relationship.0"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_Q0Pf0b0CEe6_RaqqSC6iuw" labelSize="12" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='relationshipNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='relationshipNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Q0QG4b0CEe6_RaqqSC6iuw" name="WorldSim.impl.CharacterImpl@5e78f948 (description: null, first_name: Anusha, last_name: A, occupation: Student)" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="ws:Relationship" href="My.worldsim#//@character_sheet/@character.1/@relationship.0"/>
+      <semanticElements xmi:type="ws:Relationship" href="My.worldsim#//@character_sheet/@character.1/@relationship.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_Q0QG4r0CEe6_RaqqSC6iuw" labelSize="12" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='relationshipNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='relationshipNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_ceuNIL0GEe6N1787MRYmhA" name="Political Entity P1" outgoingEdges="_NdoXEL0HEe66sJjVdHsWDw _Ndt2oL0HEe66sJjVdHsWDw _Ndvr0L0HEe66sJjVdHsWDw" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="ws:PoliticalEntity" href="My.worldsim#//@political_entity_sheet/@politicalentity.0"/>
+      <semanticElements xmi:type="ws:PoliticalEntity" href="My.worldsim#//@political_entity_sheet/@politicalentity.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_cexQcL0GEe6N1787MRYmhA" labelSize="12" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='politicalEntityNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@nodeMappings[name='politicalEntityNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_NdoXEL0HEe66sJjVdHsWDw" sourceNode="_ceuNIL0GEe6N1787MRYmhA" targetNode="_BDFg0LwpEe6-Af2XcpAuZw">
+      <target xmi:type="ws:PoliticalEntity" href="My.worldsim#//@political_entity_sheet/@politicalentity.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_NdraYL0HEe66sJjVdHsWDw" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@edgeMappings[name='politicalbelief']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_NdraYb0HEe66sJjVdHsWDw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@edgeMappings[name='politicalbelief']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_Ndt2oL0HEe66sJjVdHsWDw" sourceNode="_ceuNIL0GEe6N1787MRYmhA" targetNode="_G3n6M7xIEe64-PpZRrDq2w">
+      <target xmi:type="ws:PoliticalEntity" href="My.worldsim#//@political_entity_sheet/@politicalentity.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_NdudsL0HEe66sJjVdHsWDw" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@edgeMappings[name='politicalLocation']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_Ndudsb0HEe66sJjVdHsWDw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@edgeMappings[name='politicalLocation']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_Ndvr0L0HEe66sJjVdHsWDw" sourceNode="_ceuNIL0GEe6N1787MRYmhA" targetNode="_ZjQLsLxwEe6VMcE1mcyJ0g">
+      <target xmi:type="ws:PoliticalEntity" href="My.worldsim#//@political_entity_sheet/@politicalentity.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_Ndw58L0HEe66sJjVdHsWDw" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@edgeMappings[name='politicalMembers']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_Ndw58b0HEe66sJjVdHsWDw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@edgeMappings[name='politicalMembers']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_eprE8L0KEe6ufpPAngzw5A" name="Anusha">
+      <target xmi:type="ws:Character" href="My.worldsim#//@character_sheet/@character.0"/>
+      <semanticElements xmi:type="ws:Character" href="My.worldsim#//@character_sheet/@character.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_eprsAL0KEe6ufpPAngzw5A" labelSize="12" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='CharacterContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='CharacterContainer']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_eps6I70KEe6ufpPAngzw5A" name="1999">
+        <target xmi:type="ws:Timestamp" href="My.worldsim#//@character_sheet/@character.0/@birth"/>
+        <semanticElements xmi:type="ws:Timestamp" href="My.worldsim#//@character_sheet/@character.0/@birth"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_eps6JL0KEe6ufpPAngzw5A" labelSize="12" labelPosition="node" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='CharacterContainer']/@subNodeMappings[name='timestampNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='CharacterContainer']/@subNodeMappings[name='timestampNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_epthML0KEe6ufpPAngzw5A" name="1999">
+        <target xmi:type="ws:Timestamp" href="My.worldsim#//@character_sheet/@character.1/@birth"/>
+        <semanticElements xmi:type="ws:Timestamp" href="My.worldsim#//@character_sheet/@character.1/@birth"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_epwkgL0KEe6ufpPAngzw5A" labelSize="12" labelPosition="node" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='CharacterContainer']/@subNodeMappings[name='timestampNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='CharacterContainer']/@subNodeMappings[name='timestampNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_ep0O4L0KEe6ufpPAngzw5A" name="2023">
+        <target xmi:type="ws:Timestamp" href="My.worldsim#//@presence_sheet/@presence.0/@timeframe/@start"/>
+        <semanticElements xmi:type="ws:Timestamp" href="My.worldsim#//@presence_sheet/@presence.0/@timeframe/@start"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_ep35QL0KEe6ufpPAngzw5A" labelSize="12" labelPosition="node" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='CharacterContainer']/@subNodeMappings[name='timestampNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='CharacterContainer']/@subNodeMappings[name='timestampNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_ep5HYL0KEe6ufpPAngzw5A" name="2023">
+        <target xmi:type="ws:Timestamp" href="My.worldsim#//@presence_sheet/@presence.0/@timeframe/@end"/>
+        <semanticElements xmi:type="ws:Timestamp" href="My.worldsim#//@presence_sheet/@presence.0/@timeframe/@end"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_ep5HYb0KEe6ufpPAngzw5A" labelSize="12" labelPosition="node" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='CharacterContainer']/@subNodeMappings[name='timestampNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='CharacterContainer']/@subNodeMappings[name='timestampNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_ep5HYr0KEe6ufpPAngzw5A" name="WorldSim.impl.CharacterImpl@79dca6fe (description: null, first_name: Amrutha, last_name: A, occupation: null)">
+        <target xmi:type="ws:Relationship" href="My.worldsim#//@character_sheet/@character.0/@relationship.0"/>
+        <semanticElements xmi:type="ws:Relationship" href="My.worldsim#//@character_sheet/@character.0/@relationship.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_ep5ucL0KEe6ufpPAngzw5A" labelSize="12" labelPosition="node" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='CharacterContainer']/@subNodeMappings[name='relationshipNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='CharacterContainer']/@subNodeMappings[name='relationshipNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_ep5ucb0KEe6ufpPAngzw5A" name="WorldSim.impl.CharacterImpl@5e78f948 (description: null, first_name: Anusha, last_name: A, occupation: Student)">
+        <target xmi:type="ws:Relationship" href="My.worldsim#//@character_sheet/@character.1/@relationship.0"/>
+        <semanticElements xmi:type="ws:Relationship" href="My.worldsim#//@character_sheet/@character.1/@relationship.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_ep6VgL0KEe6ufpPAngzw5A" labelSize="12" labelPosition="node" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='CharacterContainer']/@subNodeMappings[name='relationshipNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='CharacterContainer']/@subNodeMappings[name='relationshipNode']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_eps6IL0KEe6ufpPAngzw5A" name="Amrutha">
+      <target xmi:type="ws:Character" href="My.worldsim#//@character_sheet/@character.1"/>
+      <semanticElements xmi:type="ws:Character" href="My.worldsim#//@character_sheet/@character.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_eps6Ib0KEe6ufpPAngzw5A" labelSize="12" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='CharacterContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='CharacterContainer']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_ep6Vgb0KEe6ufpPAngzw5A" name="1999">
+        <target xmi:type="ws:Timestamp" href="My.worldsim#//@character_sheet/@character.0/@birth"/>
+        <semanticElements xmi:type="ws:Timestamp" href="My.worldsim#//@character_sheet/@character.0/@birth"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_ep7joL0KEe6ufpPAngzw5A" labelSize="12" labelPosition="node" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='CharacterContainer']/@subNodeMappings[name='timestampNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='CharacterContainer']/@subNodeMappings[name='timestampNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_ep7job0KEe6ufpPAngzw5A" name="1999">
+        <target xmi:type="ws:Timestamp" href="My.worldsim#//@character_sheet/@character.1/@birth"/>
+        <semanticElements xmi:type="ws:Timestamp" href="My.worldsim#//@character_sheet/@character.1/@birth"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_ep7jor0KEe6ufpPAngzw5A" labelSize="12" labelPosition="node" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='CharacterContainer']/@subNodeMappings[name='timestampNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='CharacterContainer']/@subNodeMappings[name='timestampNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_ep8KsL0KEe6ufpPAngzw5A" name="2023">
+        <target xmi:type="ws:Timestamp" href="My.worldsim#//@presence_sheet/@presence.0/@timeframe/@start"/>
+        <semanticElements xmi:type="ws:Timestamp" href="My.worldsim#//@presence_sheet/@presence.0/@timeframe/@start"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_ep8Ksb0KEe6ufpPAngzw5A" labelSize="12" labelPosition="node" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='CharacterContainer']/@subNodeMappings[name='timestampNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='CharacterContainer']/@subNodeMappings[name='timestampNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_ep8Ksr0KEe6ufpPAngzw5A" name="2023">
+        <target xmi:type="ws:Timestamp" href="My.worldsim#//@presence_sheet/@presence.0/@timeframe/@end"/>
+        <semanticElements xmi:type="ws:Timestamp" href="My.worldsim#//@presence_sheet/@presence.0/@timeframe/@end"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_ep8Ks70KEe6ufpPAngzw5A" labelSize="12" labelPosition="node" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='CharacterContainer']/@subNodeMappings[name='timestampNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='CharacterContainer']/@subNodeMappings[name='timestampNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_ep8KtL0KEe6ufpPAngzw5A" name="WorldSim.impl.CharacterImpl@79dca6fe (description: null, first_name: Amrutha, last_name: A, occupation: null)">
+        <target xmi:type="ws:Relationship" href="My.worldsim#//@character_sheet/@character.0/@relationship.0"/>
+        <semanticElements xmi:type="ws:Relationship" href="My.worldsim#//@character_sheet/@character.0/@relationship.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_ep9_4L0KEe6ufpPAngzw5A" labelSize="12" labelPosition="node" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='CharacterContainer']/@subNodeMappings[name='relationshipNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='CharacterContainer']/@subNodeMappings[name='relationshipNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_ep-m8L0KEe6ufpPAngzw5A" name="WorldSim.impl.CharacterImpl@5e78f948 (description: null, first_name: Anusha, last_name: A, occupation: Student)">
+        <target xmi:type="ws:Relationship" href="My.worldsim#//@character_sheet/@character.1/@relationship.0"/>
+        <semanticElements xmi:type="ws:Relationship" href="My.worldsim#//@character_sheet/@character.1/@relationship.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_ep_OAL0KEe6ufpPAngzw5A" labelSize="12" labelPosition="node" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='CharacterContainer']/@subNodeMappings[name='relationshipNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@containerMappings[name='CharacterContainer']/@subNodeMappings[name='relationshipNode']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_NSlOkL0QEe6TH9awCC4zmw" sourceNode="_G3n6M7xIEe64-PpZRrDq2w" targetNode="_Npi8Ybu4Ee6lrd5EzmJqow">
+      <target xmi:type="ws:Location" href="My.worldsim#//@location_sheet/@location.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_NSrVML0QEe6TH9awCC4zmw" size="2" routingStyle="manhattan">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@edgeMappings[name='locationAnimalEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_NSrVMb0QEe6TH9awCC4zmw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@edgeMappings[name='locationAnimalEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_NSwNsL0QEe6TH9awCC4zmw" sourceNode="_G3n6M7xIEe64-PpZRrDq2w" targetNode="_NpmmwLu4Ee6lrd5EzmJqow">
+      <target xmi:type="ws:Location" href="My.worldsim#//@location_sheet/@location.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_NSw0wL0QEe6TH9awCC4zmw" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@edgeMappings[name='locationPlantEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_NSw0wb0QEe6TH9awCC4zmw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@edgeMappings[name='locationPlantEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_NSyC4L0QEe6TH9awCC4zmw" sourceNode="_BDFg0LwpEe6-Af2XcpAuZw" targetNode="_Npn047u4Ee6lrd5EzmJqow">
+      <target xmi:type="ws:BeliefSystem" href="My.worldsim#//@belief_system_sheet/@beliefsystem.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_NSyC4b0QEe6TH9awCC4zmw" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@edgeMappings[name='beliefSystemRelEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_NSyC4r0QEe6TH9awCC4zmw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer/@edgeMappings[name='beliefSystemRelEdge']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="__dVPwLt_Ee6AxasXbQRibg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='WorldSim']/@defaultLayer"/>
+    <target xmi:type="ws:Root" href="My.worldsim#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>
